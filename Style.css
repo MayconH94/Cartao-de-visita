@@ -1,0 +1,53 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+
+.Nome{
+    text-align: center;
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.botao-wpp {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+}
+
+
+@media (max-width: 425px) {
+    main .Container .Nome {
+        height: auto;
+    }    
+
+    .Container .Nome {
+        width: 170px;
+        height: 75px;
+    }
+
+    .conteudo {
+        top: -30%
+    }
+
+    .botao-wpp{
+        width: 170px;
+        height: 70px;
+        padding: 20px;
+        
+    }
+
+}
